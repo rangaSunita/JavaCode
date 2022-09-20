@@ -19,7 +19,7 @@ public class MultiArrayDemo {
 		
 	System.out.println(a.length);
 	a[0][0] = 10;
-	a[0][1]  25;
+	a[0][1] = 25;
 	
 	a[1][0] = 10;
 	a[1][1] = 20;
@@ -32,13 +32,15 @@ public class MultiArrayDemo {
 			
 			System.out.println(a[x][y]+" ");
 		}
+	
+		}
 		
 		}
 	}
 	
 	
 	}
-}
+
 	
 
 

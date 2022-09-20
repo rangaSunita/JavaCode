@@ -2,8 +2,10 @@ package sunitaJava;
 
 public class ArrayDemo {
 
+	
 	public static void main(String[] args) {
-
+     
+		int sum =0;
    int[] num = new int[4];
     num[0]=24;
     num[1]=28;
@@ -21,6 +23,18 @@ public class ArrayDemo {
     	
     	System.out.println("name of student:" +name[i]);
     }
+    for(int a: num) {
+    	//System.out.println(a);
+    	try {
+			sum += a;
+			System.out.println(sum);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
+    
     		
     
     
