@@ -1,21 +1,26 @@
 package sunitaJava.accessModifer;
 
-public class SubClassAbstract{
+public class SubClassAbstract extends DemoAbstract{
 	
-	
-  class SubClassAbstract extends DemoAbstract{
+	 public void sound() {  
 	  
-	  DemoAbstract myobj = new SubClassAbstract();
-	  
-	 
-	  public void sound() {
-		  
-	  
-	  system.out.println( myobj.sound);
+	  System.out.println("this is sound");
   }
+	  
+	  public void eat() {
+		  System.out.println("how to eat");
+	  }
+	  public static void main(String[] args) {
+		  DemoAbstract dc = new SubClassAbstract();
+		  dc.sleep();
+		  dc.eat();
+		  dc.sound();
+		  
+	  }
 
   }
-}
+
+
 
 
 
